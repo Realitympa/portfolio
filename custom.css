@@ -1,0 +1,287 @@
+body{
+
+background-color: #1f241f!important;
+color: white!important;
+
+}
+
+#backgroundp{
+    background-color: #323946!important;
+    text-align: right ;
+    /* color: green !important; */
+    opacity: 70%;
+}
+#riri{
+    color: #00eeff;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.compact{
+    margin-top: 15%;
+    display:inline-block
+    
+}
+.pic{
+    width: 55%;
+    height: 85%;
+    border-radius: 35%;
+    margin-right: 20%; 
+    margin-top:15%; 
+    float: right;
+    border: 10px #00eeff;
+    border-style: solid;
+}
+
+
+.tech_img{
+    width: 55%;
+    height: 65%;
+    margin-top: 20%;
+
+}
+.header2{
+    margin-left: 10%;
+    float: right;
+    margin-top: 30%;
+    margin-right: 30%;
+}
+.nav{
+    float: left;
+    padding-left: 35%;
+    color: black;
+    font-style: italic;
+    padding: 35px;
+    margin: auto;
+    cursor: pointer;
+
+}
+#riri{
+    color: #00eeff !important;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.homenav{
+    text-align: justify;
+    
+}
+i{
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px;
+    height: 55%;
+    font-size: 150%;
+    margin: 10px;
+    color: #00eeff;
+}
+
+.btn{
+font-size: 20%;
+background-color: #00eeff !important;
+border-radius: 4rem !important;
+box-shadow: 3px #00eeff;
+font-weight: 500 !important;
+display: inline-block !important; 
+margin-left: 55px !important;
+margin-bottom: 10px;
+
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.section2{
+    background-color: #323946;
+    padding: 60px;
+
+}
+.tech_img{
+    margin-top: 1px;
+    width: 100%;
+    height: 100%;
+}
+.work1{
+    width: 85%;
+}
+.work2{
+    width: 85%;
+    height: 85%;
+}
+.work3{
+    width: 85%;
+    height: 85%;
+}
+.display{
+    margin-top: 80px;
+    
+}
+.service{
+    text-align: center;
+    margin-bottom: 25px;
+    color:  #00eeff;
+    font-weight: 600;
+    
+}
+#yjy{
+    background-color: #323946;
+    height: 200px;
+    border-radius: 20%;
+    text-align:center ;
+    padding: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin: 15px;
+    padding-bottom: 40%;
+    font-weight: 700;
+}
+#yyy{
+    background-color: #323946;
+    height: 200px;
+    border-radius: 20%;
+    text-align:center ;
+    padding: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin: 15px;
+    padding-bottom: 40%;
+    font-weight: 700;
+}
+#yuy{
+    background-color: #323946;
+    height: 200px;
+    border-radius: 20%;
+    text-align:center ;
+    padding: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    flex: 1px;
+    margin: 5px;
+    padding-bottom: 40%;
+
+}
+#php{
+    font-size: 300%;
+    margin-bottom: 40px;
+}
+#graphic{
+    font-size: 200%;
+}
+.ppp{
+    font-weight: 900;
+}
+
+.maxi{
+    transition: 5s;
+    opacity: 0px;
+}
+.maxi:hover{
+opacity: 3;
+}
+
+#contactcontainer{
+    background-color: #6a6e77;
+    margin-top: 35px;
+    height: 85%;
+    
+}
+.footer{
+    background-color: #1f5053;
+    font-weight: bolder;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10%;
+    top: 0;
+}
+/* #textz{
+    height: 20pxpx;
+} */
+#pp{
+    margin-top: 80px;
+}
+#contactme{
+    color: white;
+    font-weight: bolder;
+}
+
+.CV{
+    height: 300px;
+    width: 350px;
+    border-radius: 3px;
+    transition: .5s;
+
+}
+.page{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.card1{
+    height: 400px;
+    margin: 5px;
+    box-shadow: 5px 5px 20px #00eeff;
+    overflow: hidden;
+}
+.intro{
+    height: 50px;
+    width: 370px;
+    padding: 6px;
+    box-sizing: border-box;
+    bottom: 4000px;
+    position: -ms-page;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+    transition: .5s;
+}
+.intro h3{
+    margin: 10px;
+    font-size: 30px;
+}
+.intro p{
+    font-size: 10px;
+    margin: 10px;
+    visibility: hidden;
+    opacity: 49%;
+    text-align: center;
+}
+span{
+    font-weight: 600;
+}
+.card1:hover{
+    cursor: pointer;
+}
+.card1:hover .intro{
+    height: 200%;
+    bottom: 200%;
+    background: black;
+    opacity: 50%;
+}
+.card1:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.card1:hover .intro{
+    transform: scale(1.1);
+
+}
+.card1:hover .CV{
+    transform: scale(1.1);
+
+}
+.ppp{
+    text-align: center;
+    color: #00eeff;
+}
+.service{
+    color: #00eeff;
+    font-weight: bolder;
+}
+#blogp{
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#title{
+    color: #00eeff;
+    font: bolder;
+}
